@@ -1,0 +1,487 @@
+body
+{
+  background-color: #000000;
+  color: lightgray;
+  font-size: 17px;
+  font-family: 'Black Ops One';
+  
+}
+
+#container
+{
+  width:1200px;
+  height: 740px;
+  margin-left: auto;
+  margin-right:auto;
+  background-image: url("Tło.jpg");
+}
+
+#board
+{
+  float: left;
+  width:345px;
+  text-align: center;
+  height:345px;
+  margin-left: 180px;
+  margin-right: 75px;
+  margin-top: 90px;
+}
+
+#letters
+{
+  float: left;
+  width: 300px;
+  text-align: center;
+  height: 30px;
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
+
+#numbers
+{
+  float: left;
+  width: 30px;
+  text-align: center;
+  height: 300px;
+  margin-right: 15px;
+}
+
+#box
+{
+  float: left;
+  width: 300px;
+  text-align: center;
+  min-height: 45px;
+}
+
+#rotation
+{
+  float: left;
+  width:50px;
+  height:50px;
+  text-align: center;
+  background-color: rgb(136, 136, 11);
+  margin-top: 70px;
+  border-radius: 5px;
+  margin-left: 327px;
+  margin-right: 5px;
+}
+
+#rotation:hover
+{
+  background-color: #85ce0f;
+  color: rgba(3, 151, 23, 0.877);
+}
+
+#board2
+{
+  float: left;
+  width:345px;
+  text-align: center;
+  height:345px;
+  margin-left: 75px;
+  margin-right: 180px;
+  margin-top: 90px;
+}
+
+#letters2
+{
+  float: left;
+  width: 300px;
+  text-align: center;
+  height: 30px;
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
+
+#numbers2
+{
+  float: left;
+  width: 30px;
+  text-align: center;
+  height: 300px;
+  margin-right: 15px;
+}
+
+#box2
+{
+  float: left;
+  width: 300px;
+  text-align: center;
+  min-height: 45px;
+}
+
+#rotation2
+{
+  float: left;
+  width:50px;
+  height:50px;
+  text-align: center;
+  background-color: rgb(136, 136, 11);
+  margin-top: 70px;
+  border-radius: 5px;
+  margin-left: 440px;
+}
+
+#rotation2:hover
+{
+  background-color: #85ce0f;
+  color: rgba(3, 151, 23, 0.877);
+}
+
+.square
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid rgb(97, 139, 137);
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: blue;
+  background-image: url("fala.jpg");
+}
+
+.lightA
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid rgb(2, 2, 2);
+  float: left;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #0d5f11c4;
+}
+
+.light1
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid rgba(2, 2, 2);
+  float: left;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #2fb634c4;
+}
+
+.squareship_to_select
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gold;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gold;
+  background-image: url("fala.jpg");
+}
+
+
+.empty
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+
+.ship
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.ship1_vertical
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_przod.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.ship2_vertical
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_srodek.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.ship3_vertical
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_tył.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.ship1_flat
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_przod.jpg");
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(90deg);
+}
+
+.ship2_flat
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_srodek.jpg");
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(90deg);
+}
+
+.ship3_flat
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_tył.jpg");
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(90deg);
+}
+
+.cross
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid rgb(30, 204, 195);
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  background-image: url("x.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.water
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid rgb(30, 204, 195);
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  background-image: url("Fale.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.gold
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gold;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gold;
+  background-image: url("Fale.jpg");
+}
+
+.shipT
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek1T.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.ship1_verticalT
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_przodT.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.ship2_verticalT
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_srodekT.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.ship3_verticalT
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_tyłT.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.ship1_flatT
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_przodT.jpg");
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(90deg);
+}
+
+.ship2_flatT
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_srodekT.jpg");
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(90deg);
+}
+
+.ship3_flatT
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("statek_tyłT.jpg");
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(90deg);
+}
+.mishit
+{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  background-image: url("pudło.jpg");
+  background-size: cover;
+  background-position: center center;
+}
